@@ -1,0 +1,17 @@
+<h1>Liste d'utilisateur</h1>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>ID</th>
+            <th>EMAIL</th>
+            <th>PASSWORD</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let ut of listes">
+        <tr>
+            <td>{{ut.id}}</td>
+            <td>{{ut.email}}</td>
+            <td>{{ut.password}}</td>
+        </tr>
+    </tbody>
+</table>
